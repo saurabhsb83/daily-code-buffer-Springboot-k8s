@@ -40,8 +40,8 @@ spec:
     spec:
       containers:
         - name: eureka
-          image: dailycodebuffer/service-registry:0.0.1
-          imagePullPolicy: Always
+          image: saurabhsb83/service-registry:0.0.1-SNAPSHOT
+          imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 8761
           env:

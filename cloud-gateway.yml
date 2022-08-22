@@ -16,8 +16,8 @@ spec:
     spec:
       containers:
         - name: cloud-gateway-app
-          image: dailycodebuffer/cloud-gateway:0.0.1
-          imagePullPolicy: Always
+          image: saurabhsb83/cloud-gateway:0.0.1-SNAPSHOT
+          imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 9191
 
